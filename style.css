@@ -1,0 +1,117 @@
+* {
+    font-family: Verdana;
+    color:white;
+    font-weight: lighter;
+
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.lateral {
+    background-color: blueviolet;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.info { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.principal {
+    background-image: url(Meu\ projeto\ \(1\).png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #181818;
+    width: 80%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between; 
+    list-style: none; 
+    padding: 0; 
+    margin-left: 50px;
+}
+
+li {
+    list-style: none;
+    padding: 0px 50px ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-self:flex-end;
+    position: absolute;
+    bottom: 70px;
+    padding-left: 100px;
+}
+
+.btn {
+    display: flex; 
+    justify-content:space-between;
+}
+
+.mensagem {
+    padding-left: 700px;
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    
+    font-size: 30px;
+
+}
+
+p, li{
+    font-size: 20px;
+}
+
+li, h2 {
+    display: flex;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    font-size:20px;
+    border-radius: 40px 40px;  
+    width: 200px;
+    height: 60px;
+    background-color: blueviolet;
+    box-shadow: : 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.lupa, .btn{
+    
+}
