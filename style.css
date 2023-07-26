@@ -34,13 +34,13 @@ body {
 
 .principal {
     background-image: url(Meu\ projeto\ \(1\).png);
-    background-size: 40%;
+    background-size: 50% ;
     background-repeat: no-repeat;
     background-position: right;
     background-color: #181818;
     width: 80%;
     height: 100%;
-    padding-top: 30px;
+    
 }
 
 .lista {
@@ -49,6 +49,7 @@ body {
     list-style: none; 
     padding: 0; 
     margin-left: 50px;
+    padding-top: 30px;
 }
 
 li {
@@ -112,6 +113,8 @@ button{
     box-shadow: : 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.lupa, .btn{
-    
+.lupa {
+    padding:30px;
+    width: 45px;
+    height:45px;
 }
